@@ -1,0 +1,10 @@
+framework module HelperFramework {
+  umbrella header "HelperFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module HelperFramework.Swift {
+    header "HelperFramework-Swift.h"
+}
